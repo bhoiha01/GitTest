@@ -1,6 +1,5 @@
 name: 1 - Hello World
-on: 
-  workflow_dispatch: 
+on: [push] 
 jobs:
   hello_world:
     runs-on: ubuntu-latest
