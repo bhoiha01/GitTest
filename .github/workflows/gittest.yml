@@ -1,5 +1,6 @@
 name: GitTest
-on: [pull_request_target, issues, push]
+on: 
+  workflow_dispatch: 
 jobs:
   greeting:
     name: Lint Code Base
