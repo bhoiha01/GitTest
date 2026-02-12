@@ -5,5 +5,5 @@ jobs:
   hello_world:
     runs-on: ubuntu-latest
     steps:
-      - name: Hellow World
+      - name: Hello World
       - run: echo "Hello World"
